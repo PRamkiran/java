@@ -1,0 +1,67 @@
+root
+import java.util.Scanner;
+import java.lang.Math;
+class Roots
+{
+public static void main(String args[])
+{
+double root1,root2;
+Scanner obj=new Scanner(System.in);
+System.out.println("enter values of a,b,c");
+int a=obj.next Int();
+int b=obj.next Int();
+int c=obj.next Int();
+double determinent=b*b-4*a*c;
+if(determinent>0)
+{
+root1=(-b+Math.sqrt(determinent))/2*a;
+root2=(-b-Math.sqrt(determinent))/2*a;
+System.out.println("quadratic eq has real roots"+"\n"+"its roots are:"+"\n"+"root1="+root1+"\n"+"root2="+root2);
+}
+else if(determinent==0)
+{
+root1=root2=-b/2*a;
+System.out.println("quadratic equation has equal roots"+"\n"+"root1="+root1+"\n"+"root2="+root2);
+}
+else
+{
+double real=-b/2*a;
+double imaginary=Math.sqrt(-determinant)2*a;
+System.out.println("real="+real+"imaginary="+imaginary);
+}
+}
+}
+race
+import java.io.*;
+class Race
+{
+public static void main(String [] args)
+{
+int R[]=new int[20];
+float avg;
+int sum=0;
+System.out.println("enter speed of 5 members");
+Scanner sc=new Scanner(System.in);
+for(int j=1;j<=5;j++)
+{
+R[j]=sc.next Int();
+sum+=R[j];
+}
+avg=sum/5;
+for(int i=1;i<=5;i++)
+{
+if(avg<R[i])
+{
+System.out.println("Qualified racer is:"+i+"with value="+R[i]);
+}
+}
+}
+}
+implement class mechanism
+class Student
+{
+String name="raju";
+string class="b.tech 1st year";
+int rollno =178;
+public void display()
+
